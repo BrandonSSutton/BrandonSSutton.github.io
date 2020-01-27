@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            	.green-text {
+				 font-family: monospace;
+				 font-size: 15px;
+				 color: green;
+				 }
+            	.purple-text {
+				  font-family: monospace;
+				  font-size: 12px;
+				  color: purple;
+				  }
+        <title>about</title>
+        </style>
+    </head>
+    <body bgcolor="lightgrey">
+    <h1 ALIGN=CENTER>About The Author</h1>
+    <h2>
+     <main> <p ALIGN=CENTER>Brandon Sutton</p>
+     <form class="pruple-text" action="index.html"> <button type="submit" value="index">Home</button></form>
+      <form class="purple-text" action= "blog.html"> <button type="submit" value="blog">Blog</button></form>
+      <form class="purple-text" action="about.html">  <button type="submit" value="about">About</button>
+      <br>
+      </form>
+     </main>
+</h2>
+<h3 ALIGN=CENTER>
+    <form>
+      <fieldset>
+        <p>
+            Comming from the small town of Muncie, IN. Brandon lived his early life in Kokomo, IN with his mother, and two older brothers. During his time in Kokomo, Brandon attended 
+            Taylor Elementary. During his years in Taylor Elementary, Brandon often felt left unhappy in his life. Even though he was a kid, he alwasy felt as if something was off. 
+            Around the age of 8, Brandon began to notice that he was seeing things and hearing voices that were not there and while at first he thought this was normal,
+            this was not the case. the most notable of these halluciantions included a black dog like figure darting down the street that noone else saw and the outline of a 
+            fairy like entity with a humanoid body, and butterfly wings. Brandon had brought both of these incidents up to his mother, however, she was quick to dismiss them, as it 
+            could have simply been the overactive imagination of a young boy. When he was 9, Brandon moved to Carmel, IN. with his mother and her new husband. Here he attended West 
+            clay elementary, Creekside Middle School, and Carmel High School. During these Years the halluciantions seemed to be far and few between, and were for the most part 
+            dismissed as imaginary. Around the age of 15, Brandon Moved back to Muncie with his father, due to constant mental-emotional abuse from his mother. In Muncie Brandon, 
+            attended Delta Univeristy where he recieved his highschool diploma. it was in these years it became apperent that something was not right with Brandon's head. 
+            The halluciantions began to get worse, and more frequent, a stroke of depression had eventually set in due to Brandon Feeling like he had noone to turn to. Near the End of 
+            Highschool, Brandon had come to terms with the halluciantions, and just expected them to happen from time to time, the Depression he had thought he had experienced turned 
+            out to be regret for leaving his mother in an unfortuante manner. From there he was admitted to IvyTech Community College where he would recieve an associates degree in 
+            Information Technology Support Protocol, Which would lead him into joining Ballstate Univeristy, where he is studying to ear a bachelors degree in Computer Technology. 
+            Now that Brandon is almost through his schooling, and he has had time to process what has happened in his life, he has come to understand that the halluciantions are caused 
+            by a pre-exsisting medical condition that not only runs in his family, but is exaggerated with stress. This condition is known as Schizophrenia. Although he is only experiencing 
+            a very mild form of it, he has never felt like he could talk about it too anyone, even now.
+        </p>
+      </fieldset>
+    </form>
+    </h3>
+    </body>
+</html>
