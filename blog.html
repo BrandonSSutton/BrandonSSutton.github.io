@@ -4,7 +4,42 @@
         <script type="text/javascript">
         </script>   
     </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body bgcolor="lightgrey">
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+  <a href="index.html#" class="w3-bar-item w3-button w3-mobile">Home</a>
+  <a href="blog.html#" class="w3-bar-item w3-button w3-mobile">Blog</a>
+  <a href="about.html#" class="w3-bar-item w3-button w3-mobile">About</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-light-gray w3-mobile">
+  <button class="w3-button w3-gray w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container w3-center">
+    <h1>What is the truth about mental illnesses?</h1>
+  </div>
+</div>
+
+<img src="schizophrenia.jpg" style="width:100%" alt="schizophrenia">
+
+<div class="w3-container w3-mobile">
+<p class="w3-center">Making mental illnesses known to the world!</p>
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<!--<body bgcolor="lightgrey">
      <h1>
         <main> <p ALIGN=CENTER>What is the truth about mental illnesses?</p>
       <form action="index.html"> <button type="submit" value="index">Home</button></form>
@@ -17,7 +52,7 @@
     </h1>
     <h2 ALIGN=CENTER><img src="schizophrenia.jpg" height="400" width="900" alt="Cinque Terre"></h2>
     
-    <h3 ALIGN=CENTER>Making mental illnesses known to the world!</h3>
+    <h3 ALIGN=CENTER>Making mental illnesses known to the world!</h3>-->
     <h4 ALIGN=CENTER>
         <form>
       <fieldset>
