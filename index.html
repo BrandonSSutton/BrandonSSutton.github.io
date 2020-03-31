@@ -29,7 +29,47 @@
 
 </style>
 </head>
-<body bgcolor="lightgrey">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+  <a href="index.html#" class="w3-bar-item w3-button w3-mobile">Home</a>
+  <a href="blog.html#" class="w3-bar-item w3-button w3-mobile">Blog</a>
+  <a href="about.html#" class="w3-bar-item w3-button w3-mobile">About</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-gray w3-mobile">
+  <button class="w3-button w3-gray w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container w3-center">
+    <h1>Home</h1>
+  </div>
+</div>
+
+<div class="w3-container w3-mobile">
+<p class="green-text">Whats your story?</p>
+</div>
+
+<img src= "illness.jpg" height="1400" width="1900" class="rounded" alt="Cinque Terre">
+
+<div class="w3-container w3-grey w3-mobile">
+    <div class="w3-right-align"><p>contact the author:</p></div>
+    <div class="w3-right-align"><p>bssutton2@bsu.edu</p></div>
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<!-- <body bgcolor="lightgrey">
 <h1>The truth about mental illness</h1>
 <h2>
      <main> <p class="green-text">Whats your story?</p>
@@ -47,6 +87,6 @@
 <h4> 
       <p class="size2">contact the author:</p>
       <p class="size">bssutton2@bsu.edu</p>
-</h4>
+</h4> -->
 </body>
 </html>
