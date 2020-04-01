@@ -11,7 +11,42 @@
         
         </style>
     </head>
-    <body bgcolor="lightgrey">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body bgcolor="lightgrey">
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+  <a href="index.html#" class="w3-bar-item w3-button w3-mobile">Home</a>
+  <a href="blog.html#" class="w3-bar-item w3-button w3-mobile">Blog</a>
+  <a href="about.html#" class="w3-bar-item w3-button w3-mobile">About</a>
+</div>
+
+<!-- Page Content -->
+<div class="w3-light-gray w3-mobile">
+  <button class="w3-button w3-light-gray w3-xlarge" onclick="w3_open()">☰</button>
+  <div class="w3-container w3-center">
+    <h1>About The Author</h1>
+  </div>
+</div>
+
+<img src="Author.jpg" height="200" width="210" class="circle" alt="Author">
+
+<div class="w3-container w3-mobile">
+<p class="w3-center">Brandon Sutton</p>
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+   <!-- <body bgcolor="lightgrey">
     <h1 ALIGN=CENTER>About The Author</h1>
     <h2>
      <main> <p ALIGN=CENTER>Brandon Sutton</p>
@@ -23,7 +58,7 @@
       </form>
      </main>
 </h2>
-<h3 ALIGN=CENTER><img src="Author.jpg" height="200" width="210" class="circle" alt="Cinque Terre"></h3>
+<h3 ALIGN=CENTER><img src="Author.jpg" height="200" width="210" class="circle" alt="Cinque Terre"></h3> -->
 <h4 ALIGN=CENTER>
     <form>
       <fieldset>
