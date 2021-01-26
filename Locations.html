@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Executives</title>
+        <style>
+            .circle1 {
+              border-radius: 100px;
+              height: 13;
+              width: 30;
+              rotate: 90deg;
+            }
+          
+          </style>
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <body bgcolor="lightgrey">
+    
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+      <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+      <a href="index.html#" class="w3-bar-item w3-button w3-mobile">Home</a>
+      <a href="Information.html#" class="w3-bar-item w3-button w3-mobile">Info</a>
+      <a href="about.html#" class="w3-bar-item w3-button w3-mobile">About</a>
+    </div>
+    
+    <!-- Page Content -->
+    <div class=" w3-mobile">
+      <button class="w3-button w3- w3-xlarge" onclick="w3_open()">☰</button>
+      <div class="w3-container w3-center">
+        <h1>Locations</h1>
+      </div>
+    </div>
+    
+    <!-- <img src="schizophrenia.jpg" style="width:100%" alt="schizophrenia"> -->
+    
+    <!-- <div class="w3-container w3-mobile">
+    <p class="w3-center">Making mental illnesses known to the world!</p>
+    </div> -->
+
+    <div class="w3-container w3-mobile" style="width: 50%; margin:  0px auto;">
+      <fieldset>
+        <p>
+          
+        </p>
+      </fieldset>
+    </div>
+    
+    <script>
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+    
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+    </body>
+</html>
